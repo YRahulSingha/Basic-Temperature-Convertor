@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Converter</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <form>
+  
     <h1>Temperature Converter</h1>
-    <input type="number" id="textBox" value="0"><br>
-
+    <input type="number" id="textBox"><br>
+    
     <input type="radio" id="toFahrenheit" name="unit">
     <label for="toFahrenheit">Celsius → Fahrenheit</label><br>
-
+    
     <input type="radio" id="toCelsius" name="unit">
     <label for="toCelsius">Fahrenheit → Celsius</label><br>
-
+   
     <button type="button" onclick="convert()">Submit</button>
-    <p id="result"></p>
+    <p id="result">Result will be displayed here</p>
+   
     </form>
 
     <script src="index.js"></script>
